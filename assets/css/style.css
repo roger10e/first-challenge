@@ -104,6 +104,7 @@ footer a {
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
+    flex-direction: column-reverse;
 }
 
 .about-me h2 {
@@ -113,6 +114,12 @@ footer a {
 .about-me p {
     margin: 25px 80px 25px 80px;
     color: var(--primary-color);
+}
+
+.about-me img {
+    padding: 0 auto;
+    width: 25%;
+    height: 40%;
 }
 
 .subtitle-section {
@@ -167,11 +174,13 @@ section {
 .primary-border {
     border-right: 3px solid var(--primary-color);
     border-color: var(--primary-color);
+    height: 100%;
 }
 
 .secondary-border {
     border-color: var(--primary-color);
     border-right: 3px solid var(--primary-color);
+    height: 100%;
 }
 
 .project h3 {
@@ -200,6 +209,11 @@ section {
     align-items: right;
 }
 
+.project img {
+    height: auto;
+    width: auto;
+}
+
 .projects h2 {
     margin: 80px 20px 80px 20px;
     color: var(--primary-color);
@@ -221,6 +235,7 @@ section {
 
 .project-img img {
     max-width: 80%;
+    size: 100%;
 
 }
 
@@ -237,6 +252,9 @@ section {
     height: 150%;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    background-color: whitesmoke;
 }
 
 
@@ -256,6 +274,7 @@ section {
     padding-bottom: 25px;
     border-bottom: 1px solid var(--primary-color);
     background-color: whitesmoke;
+    align-content: center;
 }
 
 .contact-me address {
@@ -280,13 +299,15 @@ section {
 }
 
 .resume-file iframe {
-    height: auto;
-    width: auto;
+    padding: 20px 50px 20px 50px;
+    height: max-content;
+    width: max-content;
 }
 
 .contact-me {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .contact-info {
@@ -393,18 +414,9 @@ section {
       width: 100%;
   }
 
-  .hero-cta, .hero-form {
-    width: 100%;
-  }
-  .hero-cta {
-        text-align: center;
-  }
+
   .section-title {
       width: 80%;
-  }
-
-  .trainer {
-      flex: 0 70%;
   }
 
   .contact-info iframe {
@@ -418,35 +430,10 @@ section {
       padding: 30px 15px;
   }
 
-  .step h3 {
-      flex: 1 100%;
-      text-align: center;
-  }
-
-  .step-info {
-      flex: 2 100%;
-      text-align: center;
-      justify-content: center;
-  }
-
-  .step-img {
-      flex: 0 32%;
-      margin-right: 0;
-      margin-top: 15px;
-      margin-bottom: 15px;
-  }
-
-  .step-text {
-      flex: 100%;
-  }
-
 }
 
 /*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
 @media screen and (max-width: 575px) {
-   .hero-form button {
-       width: 100%;
-   }
 
    .section-title {
        width: 95%;
