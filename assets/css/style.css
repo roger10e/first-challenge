@@ -418,6 +418,16 @@ section {
       justify-content: center;
   }
 
+  .subtitle-section{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+      background-color: var(--tertiary-color);
+  }
+.about-me img {
+    display: inline;
+}
+
   header nav ul li a {
       font-size: 20px;
   }
@@ -428,7 +438,6 @@ section {
       border-radius: 15px;
       text-shadow: none;
   }
-
 
   footer h2, footer div {
       text-align: center;
@@ -448,8 +457,32 @@ section {
 /*MEDIA QUERY FOR TABLETS AND SMALLER*/ 
 @media screen and (max-width: 768px) {
   section {
-      padding: 30px 15px;
+      padding: auto;
   }
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-me {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+  
+.about-me h2 {
+    padding: none;
+    margin: none;
+}
 
 }
 
