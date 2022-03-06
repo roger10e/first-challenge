@@ -195,6 +195,10 @@ section {
     flex-wrap: wrap;
 }
 
+.projects:first-child {
+    width: 100%;
+}
+
 .projects .project {
     display: flex;
     margin: 50px 10px 50px 10px;
@@ -236,7 +240,6 @@ section {
 .project-img img {
     max-width: 80%;
     size: 100%;
-
 }
 
 .project {
@@ -304,14 +307,22 @@ section {
     padding: 100px 0 300px 10px;
 }
 
+.resume {
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
 .resume .resume-text {
+    position: relative;
     padding: 100px;
 }
 
 .resume-file iframe {
+    position: relative;
     padding: 20px 50px 20px 50px;
-    height: max-content;
-    width: max-content;
+    height: 30vw;
+    width: 45vw;
 }
 
 .contact-me {
@@ -349,7 +360,7 @@ section {
     display: block;
     padding: 7px 15px;
     font-size: 16px;
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
@@ -365,16 +376,16 @@ section {
     border-radius: 10px;
     width: 100%;
     border: none;
-    background: var(--primary-color);
-    color: var(--secondary-color);
+    background: var(--tertiary-color);
+    color: var(--primary-color);
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
 }
 
 .contact-form button:hover {
-    background: var(--tertiary-color);
-    color: var(--primary-color);
+    background: var(--primary-color);
+    color: var(--tertiary-color);
 }
 
 .contact-info a {

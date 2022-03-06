@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #000080;
+    --secondary-color: #024e76;
+    --tertiary-color: #d3d3d3;
+}
 .hero {
     background-position: bottom;
     height: auto;
@@ -6,8 +11,8 @@
   }
 
   .page-title {
-      color: #fce138;
-      border-bottom: 4px solid #fce138;
+      color: var(--primary-color);
+      border-bottom: 4px solid var(--tertiary-color);
       border: 0 80px 15px 80px;
      font-weight: normal;
      font-size: 42px;
