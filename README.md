@@ -1,16 +1,16 @@
-# Run Buddy, Inc
+# Roger Portfolio Site
 
 ## Purpose
-A website that offers fitness training services. 
+A website that shows what I've done. 
 
 ## Built With
 * HTML
 * CSS
 
 ## Website
-https://lernantino.github.io/run-buddy/
+
 
 ## Contribution
-Made with ❤️ by [your name]
+Made with ❤️ by Roger
 
-### ©️2019 Run Buddy, Inc 
+### ©️2019 Roger, Inc 
