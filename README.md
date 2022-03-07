@@ -3,14 +3,14 @@
 
 ## Table of Contents
 * [About Me](#about-me)
-* [Work](#work)
-* [Contact Me](#contact-me)
-* [Resume](#resume)
+* [Technologies Used](#technologies-used)
+* [Functionality](#functionality)
+* [Upcoming Changes](#upcoming-changes)
 
 ----
 
 ### Roger Tenny's Portfolio doesn't have much yet, but here's to hoping that changes!
-![GIF example](./public/safe-flight-example.gif)
+
 
 ## About me
 
