@@ -171,11 +171,11 @@ section {
     border-right: 3px solid var(--primary-color);
 }
 
-.primary-border {
+/* .primary-border {
     border-right: 3px solid var(--primary-color);
     border-color: var(--primary-color);
     height: 100%;
-}
+} */
 
 .secondary-border {
     border-color: var(--primary-color);
@@ -216,6 +216,7 @@ section {
 .project img {
     height: auto;
     width: auto;
+    
 }
 
 .projects h2 {
@@ -230,11 +231,13 @@ section {
     flex-direction: column;
     justify-content: right;
     flex-wrap: wrap;
+    
 }
 
 .project-img {
     flex: 1 12%;
     margin-right: 20px;
+    background-size: cover;
 }
 
 .project-img img {
@@ -481,7 +484,11 @@ section {
   
 .about-me h2 {
     padding: none;
-    margin: none;
+    margin: 0;
+}
+
+.section-title {
+    padding: 0;
 }
 
 }
