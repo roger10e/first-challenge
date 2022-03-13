@@ -1,7 +1,7 @@
 # ROGER TENNY
 ### Alpha Version : 0.1.1
 
-[Project Site] (#https://roger10e.github.io/first-challenge/)
+* [Project Site] (#https://roger10e.github.io/first-challenge/)
 
 
 
