@@ -375,7 +375,7 @@ footer a {
 */
 
 /*MEDIA QUERY FOR DESKTOP SCREENS AND SMALLER*/ 
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
   header {
       padding-bottom: 0;
       justify-content: center;
@@ -492,5 +492,5 @@ footer a {
        order: 3;
    }
    
-}
+} */
 
