@@ -12,8 +12,6 @@
 }
 
 body {
-    /*more on this crazy alphanumerical value in a minute!*/
-    color: var(--secondary-color);
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -93,106 +91,92 @@ footer a {
     color: var(--tertiary-color);
 }
 
-/*Hero Style Start*/
-.about-me {
-    align-items: flex-start;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 60px;
-    background-color: whitesmoke;
-    background-size: cover;
-    background-position: 80%;
-    background-attachment: fixed;
-    flex-direction: column-reverse;
-}
-
-.about-me h2 {
-    color: var(--primary-color);
-}
-
-.about-me p {
-    margin: 25px 80px 25px 80px;
-    color: var(--primary-color);
-}
-
-.about-me img {
-    padding: 0 auto;
-    width: 25%;
-    height: 40%;
-}
-
-.subtitle-section {
+.subtitle {
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
     background-color: var(--tertiary-color);
-}
-
-.subtitle {
-    width: 35%;
+    width: 100%;
     text-align: right;
-    margin: 3.5%;
     color: var(--primary-color);
     font-size: 18px;
     line-height: 1.2;
 }
 
 .subtitle h2 {
-    margin: 100px 5px 25px 5px;
+    width: 100%;
+    margin: 100px 75px 25px 0px;
     text-shadow: 0 0 10px rgba(0, 0, 0, .5);
     font-style: italic;
     font-size: 55px;
     color: var(--primary-color);
 }
-/*Hero Styles End*/
 
-.about-me {
-    background: whitesmoke;
-}
-
-section {
-    display: flex;
-
+.subtitle p {
+    width: 100%;
+    margin: auto 80px 25px 0px;
 }
 
 .section-title {
-    font-size: 55px;
-    align-items: right;
-    padding: 0 250px 20px 100px;
-    margin-bottom: 35px;
-    height: 80%;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 20px 35px 20px;
-    width: 35%;
-    font-size: 48px;
+    position: relative;
+    font-size: 100px;
     color: var(--primary-color);
+    width: 40%;
+    margin: 25px 10px 50px 100px;
     border-right: 3px solid var(--primary-color);
 }
 
-/* .primary-border {
-    border-right: 3px solid var(--primary-color);
-    border-color: var(--primary-color);
-    height: 100%;
-} */
-
-.secondary-border {
-    border-color: var(--primary-color);
-    border-right: 3px solid var(--primary-color);
-    height: 100%;
+.about-me-content {
+    position: relative;
+    text-align:  right;
+    size: 0 auto;
 }
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    background-color: whitesmoke;
+    flex-direction: row;
+}
+.about-me img {
+    height: 600px;
+    width: 400px;
+    padding: 0 auto auto 100px;
+}
+
+.about-me p {
+    padding: 60px 5px 10px 100px;
+    text-align: right;
+}
+
+
+.all-projects {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-1 {
+    height: 400px;
+    width: fit-content;
+    text-align: right;
+    position: relative;
+    background-image: url(../images/hero-bg.jpeg);
+
+}
+
+
+/*
 
 .project h3 {
     color: var(--primary-color);
     font-size: 46px;
     flex: 1 30%;
-}
-
-.projects {
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .projects:first-child {
@@ -213,11 +197,6 @@ section {
     align-items: right;
 }
 
-.project img {
-    height: auto;
-    width: auto;
-    
-}
 
 .projects h2 {
     margin: 80px 20px 80px 20px;
@@ -234,11 +213,6 @@ section {
     
 }
 
-.project-img {
-    flex: 1 12%;
-    margin-right: 20px;
-    background-size: cover;
-}
 
 .project-img img {
     max-width: 80%;
@@ -252,8 +226,6 @@ section {
     flex: 1;
 }
  
-
-/*Reach Out Styles Start*/
 .contact-me {
     height: 150%;
     display: flex;
@@ -395,14 +367,14 @@ section {
     color: var(--primary-color);
 }
 
-/*Reach Out Styles End*/
 
 
 .flex-row {
     display: flex;
 }
+*/
 
-/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/ 
+/*MEDIA QUERY FOR DESKTOP SCREENS AND SMALLER*/ 
 @media screen and (max-width: 980px) {
   header {
       padding-bottom: 0;
