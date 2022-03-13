@@ -122,7 +122,7 @@ footer a {
     font-size: 100px;
     color: var(--primary-color);
     width: 40%;
-    margin: 25px 10px 50px 100px;
+    margin: 25px;
     border-right: 3px solid var(--primary-color);
 }
 
@@ -139,6 +139,7 @@ footer a {
     background-color: whitesmoke;
     flex-direction: row;
 }
+
 .about-me img {
     height: 600px;
     width: 400px;
@@ -149,7 +150,6 @@ footer a {
     padding: 60px 5px 10px 100px;
     text-align: right;
 }
-
 
 .all-projects {
     height: 100%;
@@ -283,6 +283,46 @@ footer a {
     margin-top: 80%;
     color: var(--tertiary-color);
 }
+
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    background-color: whitesmoke;
+    flex-direction: row;
+}
+
+.contact-me-content {
+    padding: 50px 50px 50px 50px;
+    flex-direction: row-reverse;
+    position: relative;
+    text-align:  right;
+    size: 0 auto;
+    justify-content: right;
+}
+
+.resume {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    background-color: whitesmoke;
+    flex-direction: row;
+}
+
+.resume-content {
+    padding: 50px 50px 50px 50px;
+    flex-direction: row-reverse;
+    position: relative;
+    text-align:  center;
+    size: 0 auto;
+    justify-content: center;
+}
+
+.resume iframe {
+    width: 500px;
+    height: 600px;
+}
+
 
 /*
 
