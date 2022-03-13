@@ -4,16 +4,15 @@
     --tertiary-color: #d3d3d3;
 }
 
-
+/* Setting Universal Styles*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*Setting Font Styles for the body*/
 body {
-    /*more on this crazy alphanumerical value in a minute!*/
-    color: var(--secondary-color);
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -33,7 +32,7 @@ header {
     background-attachment: fixed;
 }
 
-
+/*My Name Stylings*/
 header h1 {
     text-shadow: 0 0 10px rgba(0, 0, 0, 1);
     font-weight: bold;
@@ -41,6 +40,7 @@ header h1 {
     color: var(--tertiary-color);
     margin: 0;
 }
+
 
 header a {
     text-decoration: none;
@@ -93,316 +93,240 @@ footer a {
     color: var(--tertiary-color);
 }
 
-/*Hero Style Start*/
-.about-me {
-    align-items: flex-start;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 60px;
-    background-color: whitesmoke;
-    background-size: cover;
-    background-position: 80%;
-    background-attachment: fixed;
-    flex-direction: column-reverse;
-}
-
-.about-me h2 {
-    color: var(--primary-color);
-}
-
-.about-me p {
-    margin: 25px 80px 25px 80px;
-    color: var(--primary-color);
-}
-
-.about-me img {
-    padding: 0 auto;
-    width: 25%;
-    height: 40%;
-}
-
-.subtitle-section {
+.subtitle {
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
     background-color: var(--tertiary-color);
-}
-
-.subtitle {
-    width: 35%;
+    width: 100%;
     text-align: right;
-    margin: 3.5%;
     color: var(--primary-color);
     font-size: 18px;
     line-height: 1.2;
 }
 
 .subtitle h2 {
-    margin: 100px 5px 25px 5px;
+    width: 100%;
+    margin: 100px 75px 25px 0px;
     text-shadow: 0 0 10px rgba(0, 0, 0, .5);
     font-style: italic;
     font-size: 55px;
     color: var(--primary-color);
 }
-/*Hero Styles End*/
 
-.about-me {
-    background: whitesmoke;
-}
-
-section {
-    display: flex;
-
+.subtitle p {
+    width: 100%;
+    margin: auto 80px 25px 0px;
 }
 
 .section-title {
-    font-size: 55px;
-    align-items: right;
-    padding: 0 250px 20px 100px;
-    margin-bottom: 35px;
-    height: 80%;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 20px 35px 20px;
-    width: 35%;
-    font-size: 48px;
+    position: relative;
+    font-size: 100px;
     color: var(--primary-color);
+    width: 40%;
+    margin: 25px;
     border-right: 3px solid var(--primary-color);
 }
 
-/* .primary-border {
-    border-right: 3px solid var(--primary-color);
-    border-color: var(--primary-color);
-    height: 100%;
-} */
-
-.secondary-border {
-    border-color: var(--primary-color);
-    border-right: 3px solid var(--primary-color);
-    height: 100%;
+.about-me-content {
+    position: relative;
+    text-align:  right;
+    size: 0 auto;
 }
 
-.project h3 {
-    color: var(--primary-color);
-    font-size: 46px;
-    flex: 1 30%;
-}
-
-.projects {
-    height: 100%;
+.about-me {
     display: flex;
     flex-wrap: wrap;
+    padding: 60px;
+    background-color: whitesmoke;
+    flex-direction: row;
 }
 
-.projects:first-child {
+.about-me img {
+    height: 600px;
+    width: 400px;
+    padding: 0 auto auto 100px;
+}
+
+.about-me p {
+    padding: 60px 5px 10px 100px;
+    text-align: right;
+}
+
+.all-projects {
+    height: 100%;
     width: 100%;
+    display: flex;
+    size: auto;
 }
 
-.projects .project {
+.projects-content {
+    width: auto;
+}
+
+.project-1 {
+    margin-top: 50px;
+    height: 250px;
+    width: 600px;;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    background-image: url(../images/hero-bg.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+
+.project-1 a {
+    font-size: 50px;
+    color: var(--tertiary-color);
+    text-decoration: dashed;
+}
+
+.project-row-1 {
     display: flex;
-    margin: 50px 10px 50px 10px;
-    padding-bottom: 25px;
-    width: 80%;
-    border-bottom: 1px solid var(--primary-color);
     flex-wrap: wrap;
     flex-direction: row;
-    background-color: whitesmoke;
-    justify-content: space-between;
-    text-align: left;
-    align-items: right;
 }
 
-.project img {
-    height: auto;
-    width: auto;
-    
-}
-
-.projects h2 {
-    margin: 80px 20px 80px 20px;
-    color: var(--primary-color);
-    height: 100%;
-    padding-bottom: 300px;
-}
-
-.project-name {
-    color: var(--primary-color);
-    flex-direction: column;
-    justify-content: right;
-    flex-wrap: wrap;
-    
-}
-
-.project-img {
-    flex: 1 12%;
-    margin-right: 20px;
-    background-size: cover;
-}
-
-.project-img img {
-    max-width: 80%;
-    size: 100%;
-}
-
-.project {
-    margin: 20px;
-    background: whitesmoke;
-    color: var(--primary-color);
-    flex: 1;
-}
- 
-
-/*Reach Out Styles Start*/
-.contact-me {
-    height: 150%;
+.project-2 {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
+    height: 250px;
+    width: 300px;
+    justify-content:space-around;
+    position: relative;
+    background-image: url(../images/WLR-1.jpg);
+    background-position: center;
+    background-size: contain;
+    font: 100px var(--tertiary-color);
+    background-repeat: no-repeat;
+}
+
+.project-2 h3 {
+    text-align: center;
+}
+
+.project-2 p {
+    margin-top: 225px;
+    color: var(--tertiary-color);
+}
+
+.project-3 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    background-image: url(../images/rooftop-smoke-1.JPG);
+    background-position: center;
+    padding: 25px;
+    background-size: contain;
+    font: 100px var(--tertiary-color);
+    background-repeat: no-repeat;
+}
+.project-3 h3 {
+    text-align: center;
+}
+
+.project-3 p {
+    margin-top: 80%;
+}
+
+
+.project-row-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.project-4 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    background-image: url(../images/ABC-monkey.JPG);
+    background-position: center;
+    padding: 25px;
+    background-size: contain;
+    font: 100px var(--tertiary-color);
+    background-repeat: no-repeat;
+}
+.project-4 h3 {
+    text-align: center;
+}
+
+.project-4 p {
+    margin-top: 80%;
+    color: var(--tertiary-color);
+}
+
+.project-5 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    background-image: url(../images/sad-boi-painting.JPG);
+    background-position: center;
+    padding: 25px;
+    background-size: contain;
+    font: 100px var(--tertiary-color);
+    background-repeat: no-repeat;
+}
+.project-5 h3 {
+    text-align: center;
+}
+
+.project-5 p {
+    margin-top: 80%;
+    color: var(--tertiary-color);
+}
+
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
     background-color: whitesmoke;
+    flex-direction: row;
 }
 
-
-.contact-me h2 {
-    margin: 80px 0px 80px 20px;
-    color: var(--primary-color);
-    height: 100%;
-    padding-bottom: 300px;
-}
-
-.contact-me div {
-    height: 25%;
-    width: auto;
-    background: whitesmoke;
-    margin: 50px 10px 50px 10px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid var(--primary-color);
-    background-color: whitesmoke;
-    align-content: center;
-}
-
-.contact-me address {
-    height: 25%;
-    width: auto;
-    background: whitesmoke; 
-    margin: 50px 10px 50px 10px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid var(--primary-color);
-    background-color: whitesmoke;
-
-}
-
-.contact-me .contact-form {
-    height: 25%;
-    width: auto;
-    background: whitesmoke; 
-    margin: 50px 10px 50px 10px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid var(--primary-color);
-    background-color: whitesmoke;
-}
-
-.resume h2 {
-    margin: 20px 5px 20px 5px;
-    color: var(--primary-color);
-    height: 100%;
-    padding: 100px 0 300px 10px;
+.contact-me-content {
+    padding: 50px 50px 50px 50px;
+    flex-direction: row-reverse;
+    position: relative;
+    text-align:  right;
+    size: 0 auto;
+    justify-content: right;
 }
 
 .resume {
-    position: relative;
-    align-items: center;
-    text-align: center;
-}
-
-.resume .resume-text {
-    position: relative;
-    padding: 100px;
-}
-
-.resume-file iframe {
-    position: relative;
-    padding: 20px 50px 20px 50px;
-    height: 30vw;
-    width: 45vw;
-}
-
-.contact-me {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    padding: 60px;
+    background-color: whitesmoke;
+    flex-direction: row;
 }
 
-.contact-info {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.resume-content {
+    padding: 50px 50px 50px 50px;
+    flex-direction: row-reverse;
+    position: relative;
+    text-align:  center;
+    size: 0 auto;
+    justify-content: center;
 }
 
-.contact-info > * {
-    flex: 1;
-    margin: 15px;
+.resume iframe {
+    width: 500px;
+    height: 600px;
 }
 
-.contact-info h3 {
-    color: var(--primary-color);
-    font-size: 32px;
-}
 
-.contact-info p, .contact-info address {
-    margin: 20px 0;
-    line-height: 1.5;
-    font-size: 16px;
-    font-style: normal;
-}
-
-.contact-form input, .contact-form textarea {
-    border-radius: 10px;
-    border: 1px solid var(--secondary-color);
-    display: block;
-    padding: 7px 15px;
-    font-size: 16px;
-    color: var(--tertiary-color);
-    width: 100%;
-    margin-bottom: 15px;
-    margin-top: 5px;
-    background-color: rgba(255, 255, 255, .75);
-}
-
-.contact-form input:focus, .contact-form textarea:focus {
-    background-color: rgba(255, 255, 255, 1);
-    outline: none;
-}
-
-.contact-form button {
-    border-radius: 10px;
-    width: 100%;
-    border: none;
-    background: var(--tertiary-color);
-    color: var(--primary-color);
-    text-align: center;
-    padding: 15px 0;
-    font-size: 16px;
-}
-
-.contact-form button:hover {
-    background: var(--primary-color);
-    color: var(--tertiary-color);
-}
-
-.contact-info a {
-    color: var(--primary-color);
-}
-
-/*Reach Out Styles End*/
-
-
-.flex-row {
-    display: flex;
-}
-
-/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/ 
+/*MEDIA QUERY FOR DESKTOP SCREENS AND SMALLER*/ 
 @media screen and (max-width: 980px) {
   header {
       padding-bottom: 0;
@@ -421,7 +345,7 @@ section {
       justify-content: center;
   }
 
-  .subtitle-section{
+  .subtitle{
       display: flex;
       flex-wrap: wrap;
       justify-content: left;
@@ -431,34 +355,39 @@ section {
     display: inline;
 }
 
-  header nav ul li a {
-      font-size: 20px;
-  }
+header nav ul li a {
+    font-size: 20px;
+}
 
-  header nav ul li a:hover {
-      background: var(--primary-color);
-      color: var(--secondary-color);
-      border-radius: 15px;
-      text-shadow: none;
-  }
+header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
 
-  footer h2, footer div {
-      text-align: center;
-      width: 100%;
-  }
+footer h2, footer div {
+    text-align: center;
+    width: 100%;
+}
 
 
-  .section-title {
-      width: 80%;
-  }
+.section-title {
+    width: 100px;
+    border-right: none;
+}
 
-  .contact-info iframe {
-      flex: 1 100%;
-  }
+.contact-info iframe {
+    flex: 1 100%;
+}
+
+.resume .section-title {
+    border: none;
+}
 }
 
 /*MEDIA QUERY FOR TABLETS AND SMALLER*/ 
-@media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
   section {
       padding: auto;
   }
@@ -468,33 +397,33 @@ section {
     position: relative;
     width: auto;
     height: auto;
-}
+    }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-.about-me {
-    display: block;
-    flex-wrap: wrap;
-    justify-content: left;
-}
-  
-.about-me h2 {
-    padding: none;
-    margin: 0;
-}
+    .about-me {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    
+    .about-me h2 {
+        padding: none;
+        margin: 0;
+    }
 
-.section-title {
-    padding: 0;
-}
+    .section-title {
+        padding: 0;
+    }
 
 }
 
 /*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
-@media screen and (max-width: 575px) {
+ @media screen and (max-width: 575px) {
 
    .section-title {
        width: 95%;
@@ -520,5 +449,4 @@ section {
        order: 3;
    }
    
-}
-
+} 

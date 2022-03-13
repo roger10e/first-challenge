@@ -33,80 +33,61 @@
             </nav>
         </header>
         <!--hero/subtitle section-->
-        <section class="subtitle-section">
-            <div class="subtitle">
+        <section class="subtitle">
                 <h2>Cool Subtitle</h2>
                 <p>
                     How ya likin' the website so far?
                 </p>
-            </div>
         </section>
         <!--End hero/subtitle Section-->
 
         <!--"About Me" section-->
         <section id="about-me" class="about-me">
-        <div class="flex-row">
-            <h2 class="section-title primary border">
+            <h2 class="section-title">
                 About Me
             </h2>
-            <img src="./assets/images/headshot-1.JPG" alt="Roger Tenny Professional Headshot">
-            <p>
-            I'm nothing more than a mosaic of all the personalities with which I've interacted. <br/>
-            <br>
-            I'm trying to code too :)
-            </p>
-        </div>
+               <div class="about-me-content">
+                   <img src="./assets/images/headshot-1.JPG" alt="Roger Tenny Professional Headshot">
+                   <p>
+                       I'm nothing more than a mosaic of all the personalities with which I've interacted. <br/>
+                       <br>
+                       I'm trying to code too :)
+                    </p>
+                </div>
         </section>
 
         <!--"Work" section-->
-        <section id="work" class="projects">
-            <h2 class="section-title primary-border">Work</h2>
-                <div class="project">
-                    <h3>
-                        <a href="https://roger10e.github.io/run-buddy/">Run Buddy</a>
-                    </h3>
-                    <div class="project-name">
-                        <div class="project-img">
-                            <img src="./assets/images/hero-bg.jpeg" alt="A woman bends down to tie her running shoes"/>
-                        </div>
+        <section id="work" class="all-projects">
+            <h2 class="section-title">Work</h2>
+                <div class="projects-content">
+                    <div class="project-1">
+                        <h3>
+                            <a href="https://roger10e.github.io/run-buddy/">Run Buddy</a>
+                        </h3>
                     </div>
-                <div>
-                
-                <div class="project">
-                    <h3>Project #2</h3>
-                    <div class="project-name">
-                        <div class="project-img">
-                            <img src="./assets/images/WLR-1.jpg" alt="GTA V character looks wistfully down atop a parking garage">
+                    <div class="project-row-1">
+
+                        <div class="project-2">
+                            <h3>Project #2</h3>
                             <p>Coming Soon!</p>
                         </div>
-                    </div>
-                </div>
-                
-                <div class="project">
-                    <h3>Project #3</h3>
-                    <div class="project-name">
-                        <div class="project-img">
-                            <img src="./assets/images/rooftop-smoke-1.JPG" alt="Smoking a joint on a rooftop, overlooking a cityscape ">
+                        
+                        <div class="project-3">
+                            <h3>Project #3</h3>
                             <p>Coming Soon!</p>
                         </div>
+                        
                     </div>
-                </div>
-                
-                <div class="project">
-                    <h3>Project #4</h3>
-                    <div class="project-name">
-                        <div class="project-img">
-                            <img src="./assets/images/ABC-monkey.JPG" alt="A delightful picture of a baby monkey on the rock of Gibraltar">
+
+                    <div class="project-row-2">
+
+                        <div class="project-4">
+                            <h3>Project #4</h3>
                             <p>Coming Soon!</p>
                         </div>
-                    </div>
-                </div>
-                
-                <div class="project">
-                    <h3>Project #5</h3>
-                    <div class="project-name">
-                        <div class="project-img">
-                            <img src="./assets/images/sad-boi-painting.JPG" alt="A Renaissance painting of a man crying">
+                        
+                        <div class="project-5">
+                            <h3>Project #5</h3>
                             <p>Coming Soon!</p>
                         </div>
                     </div>
@@ -115,36 +96,39 @@
                 
         <!--"Contact Me" section-->
         <section id="contact-me" class="contact-me">
-     
-                <h2 class="section-title primary-border">
+                <h2 class="section-title">
                     Contact Me!
                 </h2>
                 <br/>
-                <div>
+                <div class="contect-me-content">
                     <address class="address">
                         4138 Herschel Ave <br/>
                         Dallas, TX 75219 <br/>
                         P: 817.360.2064 <br/>                
                         E: <a href="mailto: rogertenny@gmail.com">rogertenny@gmail.com</a>
                     </address>
+                    <br>
+                    <br>
+                    <div class="contact-form">
+                        <h3>Send Me a Message!</h3>
+                        <br>
+                        <form>
+                            <label for="contact-name">Your Name</label>
+                            <input type="text" id="contact-name" placeholder="Your Name">
+                            <br>
+                            <br>
+                            <label for="contact-message">Message</label>
+                            <textarea id="contact-message" placeholder="Message" rows="2"></textarea>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>    
                 </div>
-                <div class="contact-form">
-                    <h3>Send Me a Message!</h3>
-                    <form>
-                        <label for="contact-name">Your Name</label>
-                        <input type="text" id="contact-name" placeholder="Your Name">
-                        
-                        <label for="contact-message">Message</label>
-                        <textarea id="contact-message" placeholder="Message" rows="2"></textarea>
-                        <button type="submit">Submit</button>
-                    </form>
-                </div>    
         </section>
 
         <!--"resume" section-->
         <section id="resume" class="resume">
-            <h2 class="section-title primary-border">Check Out My Resume!</h2>
-                <div class="resume-text">
+            <h2 class="section-title">Check Out My Resume!</h2>
+                <div class="resume-content">
                     <div class="resume-file">       
                         <iframe src="./assets/images/Final-Resume-PDF.pdf" 
                         style="border: 0"
