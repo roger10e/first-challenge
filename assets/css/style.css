@@ -155,21 +155,134 @@ footer a {
     height: 100%;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    position: relative;
-    overflow: hidden;
+    size: auto;
+}
+
+.projects-content {
+    width: auto;
 }
 
 .project-1 {
-    height: 400px;
-    width: fit-content;
-    text-align: right;
+    margin-top: 50px;
+    height: 250px;
+    width: 600px;;
+    text-align: center;
+    justify-content: center;
     position: relative;
     background-image: url(../images/hero-bg.jpeg);
-
+    background-position: center;
+    background-size: contain;
 }
 
+.project-1 a {
+    font-size: 50px;
+    color: var(--tertiary-color);
+    text-decoration: dashed;
+}
+
+.project-row-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.project-2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 300px;
+    justify-content:space-around;
+    position: relative;
+    background-image: url(../images/WLR-1.jpg);
+    background-position: center;
+    background-size: contain;
+    font: 100px var(--tertiary-color);
+    background-repeat: no-repeat;
+}
+
+.project-2 h3 {
+    text-align: center;
+}
+
+.project-2 p {
+    margin-top: 225px;
+    color: var(--tertiary-color);
+}
+
+.project-3 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    background-image: url(../images/rooftop-smoke-1.JPG);
+    background-position: center;
+    padding: 25px;
+    background-size: contain;
+    font: 100px var(--tertiary-color);
+    background-repeat: no-repeat;
+}
+.project-3 h3 {
+    text-align: center;
+}
+
+.project-3 p {
+    margin-top: 80%;
+}
+
+
+.project-row-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.project-4 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    background-image: url(../images/ABC-monkey.JPG);
+    background-position: center;
+    padding: 25px;
+    background-size: contain;
+    font: 100px var(--tertiary-color);
+    background-repeat: no-repeat;
+}
+.project-4 h3 {
+    text-align: center;
+}
+
+.project-4 p {
+    margin-top: 80%;
+    color: var(--tertiary-color);
+}
+
+.project-5 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    background-image: url(../images/sad-boi-painting.JPG);
+    background-position: center;
+    padding: 25px;
+    background-size: contain;
+    font: 100px var(--tertiary-color);
+    background-repeat: no-repeat;
+}
+.project-5 h3 {
+    text-align: center;
+}
+
+.project-5 p {
+    margin-top: 80%;
+    color: var(--tertiary-color);
+}
 
 /*
 
@@ -430,7 +543,7 @@ footer a {
 }
 
 /*MEDIA QUERY FOR TABLETS AND SMALLER*/ 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   section {
       padding: auto;
   }
@@ -466,7 +579,7 @@ footer a {
 }
 
 /*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
-@media screen and (max-width: 575px) {
+/* @media screen and (max-width: 575px) {
 
    .section-title {
        width: 95%;
@@ -493,4 +606,3 @@ footer a {
    }
    
 } */
-
