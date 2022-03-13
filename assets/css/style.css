@@ -41,12 +41,12 @@ header h1 {
     margin: 0;
 }
 
-
+/*make the nav tools colors gray*/
 header a {
     text-decoration: none;
     color: var(--tertiary-color);
 }
-
+/*changing the navigation tools*/
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -67,7 +67,7 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
-
+/*Beginning of footer sylization*/
 footer {
     display: flex;
     justify-content: space-between;
@@ -92,7 +92,9 @@ footer div {
 footer a {
     color: var(--tertiary-color);
 }
+/*end footer sylization*/
 
+/*"Cool Subtitle" Section Styling*/
 .subtitle {
     display: flex;
     flex-wrap: wrap;
@@ -127,7 +129,9 @@ footer a {
     margin: 25px;
     border-right: 3px solid var(--primary-color);
 }
+/*"Cool Subtitle" styling done*/
 
+/*styling the about me section*/
 .about-me-content {
     position: relative;
     text-align:  right;
@@ -142,17 +146,21 @@ footer a {
     flex-direction: row;
 }
 
+/*sizing my About Me image*/
 .about-me img {
     height: 600px;
     width: 400px;
     padding: 0 auto auto 100px;
 }
 
+/*Stylizing my About Me paragraph*/
 .about-me p {
     padding: 60px 5px 10px 100px;
     text-align: right;
 }
 
+
+/*Stylizing the projects or "work" section*/
 .all-projects {
     height: 100%;
     width: 100%;
@@ -164,6 +172,7 @@ footer a {
     width: auto;
 }
 
+/*Adjusting the first project to make it bigger*/
 .project-1 {
     margin-top: 50px;
     height: 250px;
@@ -182,12 +191,14 @@ footer a {
     text-decoration: dashed;
 }
 
+/*putting the projects in rows*/
 .project-row-1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
+/*Template for styling the remaining projects*/
 .project-2 {
     display: flex;
     flex-wrap: wrap;
@@ -225,6 +236,7 @@ footer a {
     font: 100px var(--tertiary-color);
     background-repeat: no-repeat;
 }
+
 .project-3 h3 {
     text-align: center;
 }
@@ -233,7 +245,7 @@ footer a {
     margin-top: 80%;
 }
 
-
+/*making a second row for projects*/
 .project-row-2 {
     display: flex;
     flex-wrap: wrap;
@@ -286,6 +298,7 @@ footer a {
     color: var(--tertiary-color);
 }
 
+/*stylizing the "contact me" section*/
 .contact-me {
     display: flex;
     flex-wrap: wrap;
@@ -311,6 +324,7 @@ footer a {
     flex-direction: row;
 }
 
+/*stylizing the resume section*/
 .resume-content {
     padding: 50px 50px 50px 50px;
     flex-direction: row-reverse;
@@ -320,6 +334,7 @@ footer a {
     justify-content: center;
 }
 
+/*stylizing my resume to be more readable*/
 .resume iframe {
     width: 500px;
     height: 600px;
